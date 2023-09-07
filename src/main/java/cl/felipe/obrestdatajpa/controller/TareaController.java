@@ -111,7 +111,7 @@ public class TareaController {
     }
     //borrar una tarea en base de datos a traves de un id
 
-    @DeleteMapping("/api/tarea/{id}")
+    @DeleteMapping("/api/tareas/{id}")
     @Operation(summary = "Remover una tarea por clave primaria id LONG")
     public ResponseEntity<Tarea> delete(@Parameter(description ="Clave primaria tipo LONG")@PathVariable Long id){
 
