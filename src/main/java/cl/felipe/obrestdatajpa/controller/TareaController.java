@@ -1,8 +1,6 @@
 package cl.felipe.obrestdatajpa.controller;
 
-import cl.felipe.obrestdatajpa.entities.Book;
 import cl.felipe.obrestdatajpa.entities.Tarea;
-import cl.felipe.obrestdatajpa.repository.BookRepository;
 import cl.felipe.obrestdatajpa.repository.TareaRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -13,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @CrossOrigin("*")
