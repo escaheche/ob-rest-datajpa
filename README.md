@@ -11,7 +11,7 @@ Startes para Web:
 * Spring Boot DEV TOOLS
 
 Para documentar la api:
-* SpringFox swagger
+* SpringDoc openapi swagger
 
 Aplicación API REST con acceso a base de datos H2 para persistir la información.
 
@@ -28,4 +28,15 @@ El acceso se puede realizar desde Postman o Navegador.
    4. Actualizar un libro existente
    5. Borrar un libro
    6. Borrar todos los libros
+
+## Entidad Tarea
+
+1. Tarea
+2. TareaRepository
+3. TareaController
+   1. Buscar todos las tareas
+   2. Crear una nueva tarea
+   3. Actualizar una tarea existente
+   4. Borrar un libro
+
 
