@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin("*")
 public class TareaController {
     private final Logger log = LoggerFactory.getLogger(TareaController.class);
     //atributos
