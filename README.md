@@ -38,6 +38,6 @@ El acceso se puede realizar desde Postman o Navegador.
    1. Buscar todos las tareas
    2. Crear una nueva tarea
    3. Actualizar una tarea existente
-   4. Borrar un libro
+   4. Borrar una tarea
 
 
