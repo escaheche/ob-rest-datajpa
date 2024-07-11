@@ -11,6 +11,7 @@
 	<groupId>cl.felipe</groupId>
 	<artifactId>ob-rest-datajpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>ob-rest-datajpa</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
